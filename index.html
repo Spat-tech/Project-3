@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html Lang="en">
+<head> 
+  <title>Personal Portfolio Site</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!--Header and Navigation-->
+  <Section>
+     <header>
+    <nav> 
+      <div><strong>MyPortfolio</strong></div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle">☰</label>
+      <ul>
+         <a href="#about">About</a><br>
+      <a href="#skills">Skills</a><br>
+      <a href="#projects">Projects</a><br>
+      <a href="#contacts">Contacts</a><br>
+    </ul>
+     
+    </nav>
+    <img src="b73cf897f67d495e8d4e636977a50997.jpg" alt="A logo" height="80px">
+  </header>
+ </Section>
+
+ <!--About Section-->
+ <section id="about">
+  <h1>About</h1>
+  <article>
+    <figure>
+    <p>My name is Abdul-Bast, i am a front end-developer, experienced in web develoing and designing</p>
+    <img src="Screenshot_20241104_155048_Lite.jpg" alt="Profile Image" height="150px">
+    <figcaption>Abdul-Basit - Web Developer</figcaption>
+    </figure>
+  </article>
+ </section>
+
+ <!--Skills Table-->
+ <section>
+  <h1>Skills Table</h1>
+   <table>
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Proficiency</th>
+          <th>Years of Experience</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML/CSS</td>
+          <td>Learner</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Wordpress</td>
+          <td>Average</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Driving</td>
+          <td>Average</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Taloring</td>
+          <td>Intermediate</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Barbing</td>
+          <td>Advanced</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+
+<section id="projects">
+  <h1>Project Gallery</h1>
+  
+    <article>
+          <h2>Auto-Parts</h2>
+          <h3>Description</h3>
+          <p>A web page made with word press, it was made for a auto parst dealer.</p>
+          <a href="#auto-parts">Live Demo</a>
+    </article>
+
+     <article>
+          <h2>Logeestico</h2>
+          <h3>Description</h3>
+          <p>A  website built with HTML, CSS, for a logistics company.</p>
+          <a href="#logeestico">Live Demo</a>
+    </article>
+
+     <article>
+          <h2>Tailwind</h2>
+          <p>A CSS learning and enhancing website.</p>
+          <a href="#tailwind">Live Demo</a>
+    </article>
+</section>
+
+<!--Embedded Multimedia-->
+<section>
+   <h1>Multimedia</h1>
+    <article>
+      <h2>Watch a video</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mqxB13zOobA?si=Lgdh0BYhbkDXBEQV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </article>
+     <article>
+      <h2>Listen to audio</h2>
+      <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </article>
+</section>
+
+<!--Contact Me-->
+<section>
+   <h2>Contact Me</h2>
+    <form action="#abdulbaseet@gmail.com" method="post">
+      <fieldset>
+        <legend>Get in Touch</legend>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" id="fullname" required /><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required /><br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" id="subject" /><br><br>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5"></textarea><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label><br><br>
+
+        <label for="contact-time">Preferred Contact Time:</label>
+        <select name="contact-time" id="contact-time">
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+        </select><br><br>
+
+        <label>
+          <input type="checkbox" name="terms" id="terms" required />
+          I agree to the Terms & Conditions
+        </label><br><br>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+</section>
+
+<!--Footer-->
+<section>
+  <h2>Footer</h2>
+   <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+    <p>
+      Connect with me:
+      <a href="#">🌐</a>
+      <a href="#">💼</a>
+      <a href="#">📷</a>
+    </p>
+  </footer>
+</section>
+</body>
+</html>
